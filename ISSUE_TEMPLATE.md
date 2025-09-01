@@ -32,7 +32,19 @@ Complete minimal reproduction project available at:
 - **iOS Simulator + None**: ✅ Works correctly
 
 ## Screenshots
-Screenshots showing the difference in behavior are included in the reproduction repository.
+
+### iOS Simulator - Both linking modes work correctly
+![iOS Simulator - Working with SdkOnly](https://github.com/yuki2006/maui_sdkonly/raw/main/screenshots/none_linking_simulator.png)
+
+### Physical Device - Clear difference in behavior
+
+**None Linking (Working correctly)**
+![iPad with None linking - Working](https://github.com/yuki2006/maui_sdkonly/raw/main/screenshots/device_none_working.png)
+
+**SdkOnly Linking (Frozen state)**
+![iPad with SdkOnly linking - Frozen](https://github.com/yuki2006/maui_sdkonly/raw/main/screenshots/device_sdkonly_freeze.png)
+
+As shown in the screenshots above, the issue is clearly reproducible - SdkOnly linking causes a black screen freeze on physical devices while working correctly on simulators.
 
 ## Additional Information
 - The application process launches successfully but becomes unresponsive
