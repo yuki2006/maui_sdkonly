@@ -19,7 +19,7 @@ When using SdkOnly linking mode with .NET 9 MAUI iOS applications, the app freez
 - **Xcode**: 16.4 (Build version 16F6)
 - **iOS SDK**: 18.5
 - **macOS**: 15.6 (Darwin 24.6.0)
-- **Test Device**: iPad (6th generation) Model A1893, iOS 18.5
+- **Test Device**: iPad (6th generation) Model A1893, iOS 17.7.10
 
 ## Reproduction Repository
 Complete minimal reproduction project available at:

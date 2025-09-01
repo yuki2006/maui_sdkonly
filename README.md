@@ -23,9 +23,9 @@ When building a .NET 9 MAUI iOS application with SdkOnly linking mode, the app f
 
 ### Target Environment
 
-- **iOS**: 12.2+ (tested on iOS 18.5)
+- **iOS**: 12.2+ (tested on iOS 17.7.10)
 - **Architecture**: ios-arm64
-- **Device**: iPad (6th generation) Model A1893
+- **Device**: iPad (6th generation) Model A1893 (iOS 17.7.10)
 - **Simulator**: iPhone 15 Pro (iOS 18.5) for comparison testing
 
 ## Project Structure
